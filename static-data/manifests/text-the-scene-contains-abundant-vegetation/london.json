@@ -1,0 +1,36 @@
+{
+  "prompt_id": "the-scene-contains-abundant-vegetation--95520a811af8",
+  "dataset_id": "london_224_8_45",
+  "dataset_group_id": "london_shanghai",
+  "prompt": "the scene contains abundant vegetation",
+  "query_type": "text",
+  "reference_pano": null,
+  "canonical_prompt": "the scene contains abundant vegetation",
+  "prompt_key_hash": "95520a811af82b651d9cdd6b6b5e7cad315eefbecdc2abe9e9e16e5cdaa30928",
+  "source_type": "zxy_geojson",
+  "tile_url_template": "https://0tz236qm3w6hxv-8000.proxy.runpod.net/api/scoring/results/the-scene-contains-abundant-vegetation--95520a811af8/tiles/{z}/{x}/{y}.geojson",
+  "score_property": "score",
+  "zscore_property": "zscore",
+  "zooms": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "stats": {
+    "count": 476577,
+    "score_min": 0,
+    "score_max": 0.48915034532546997,
+    "zscore_min": -3.3749442100524902,
+    "zscore_max": 4.451913833618164
+  },
+  "model_version": "qwen3-vl-embedding-2b",
+  "scoring_version": "text-cor-t-qwen-cred-v1--group-london_shanghai-b2e801f7590f",
+  "base_scoring_version": "text-cor-t-qwen-cred-v1",
+  "tile_index_version": "xyz-z13-area-v1",
+  "density_rule": "base_zoom_area_scaled_v1",
+  "density_base_zoom": 13,
+  "density_trigger_points": 10000,
+  "density_keep_points": 5000,
+  "created_at": "2026-05-02T19:43:39Z"
+}

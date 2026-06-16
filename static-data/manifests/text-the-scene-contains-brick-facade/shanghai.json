@@ -1,0 +1,36 @@
+{
+  "prompt_id": "the-scene-contains-brick-facade--0e264960a5bb",
+  "dataset_id": "shanghai_224_8_45_2B",
+  "dataset_group_id": "london_shanghai",
+  "prompt": "the scene contains brick facade",
+  "query_type": "text",
+  "reference_pano": null,
+  "canonical_prompt": "the scene contains brick facade",
+  "prompt_key_hash": "0e264960a5bb32dcd2a79f65e4b1e170b01a423a1b51f726140fda09b6db3028",
+  "source_type": "zxy_geojson",
+  "tile_url_template": "https://0tz236qm3w6hxv-8000.proxy.runpod.net/api/scoring/results/the-scene-contains-brick-facade--0e264960a5bb/tiles/{z}/{x}/{y}.geojson",
+  "score_property": "score",
+  "zscore_property": "zscore",
+  "zooms": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "stats": {
+    "count": 173622,
+    "score_min": 0,
+    "score_max": 0.5010312795639038,
+    "zscore_min": -4.364893913269043,
+    "zscore_max": 3.4192121028900146
+  },
+  "model_version": "qwen3-vl-embedding-2b",
+  "scoring_version": "text-cor-t-qwen-cred-v1--group-london_shanghai-b2e801f7590f",
+  "base_scoring_version": "text-cor-t-qwen-cred-v1",
+  "tile_index_version": "xyz-z13-area-v1",
+  "density_rule": "base_zoom_area_scaled_v1",
+  "density_base_zoom": 13,
+  "density_trigger_points": 10000,
+  "density_keep_points": 5000,
+  "created_at": "2026-05-02T19:43:49Z"
+}

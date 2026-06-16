@@ -1,0 +1,36 @@
+{
+  "prompt_id": "the-scene-contains-a-punk-urban-character--a322babf6e7f",
+  "dataset_id": "shanghai_224_8_45_2B",
+  "dataset_group_id": "london_shanghai",
+  "prompt": "the scene contains a punk urban character",
+  "query_type": "text",
+  "reference_pano": null,
+  "canonical_prompt": "the scene contains a punk urban character",
+  "prompt_key_hash": "a322babf6e7f9a6228c84f5ab7593a74ca8a689033069c9c71ba5de05a082a3c",
+  "source_type": "zxy_geojson",
+  "tile_url_template": "https://0tz236qm3w6hxv-8000.proxy.runpod.net/api/scoring/results/the-scene-contains-a-punk-urban-character--a322babf6e7f/tiles/{z}/{x}/{y}.geojson",
+  "score_property": "score",
+  "zscore_property": "zscore",
+  "zooms": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "stats": {
+    "count": 173622,
+    "score_min": 0,
+    "score_max": 0.295431911945343,
+    "zscore_min": -4.203249931335449,
+    "zscore_max": 4.380763053894043
+  },
+  "model_version": "qwen3-vl-embedding-2b",
+  "scoring_version": "text-cor-t-qwen-cred-v1--group-london_shanghai-b2e801f7590f",
+  "base_scoring_version": "text-cor-t-qwen-cred-v1",
+  "tile_index_version": "xyz-z13-area-v1",
+  "density_rule": "base_zoom_area_scaled_v1",
+  "density_base_zoom": 13,
+  "density_trigger_points": 10000,
+  "density_keep_points": 5000,
+  "created_at": "2026-05-11T11:36:05Z"
+}

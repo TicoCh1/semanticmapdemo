@@ -1,0 +1,602 @@
+{
+  "version": "2026-06-16T10:53:53.279Z",
+  "note": "Static deployment visual defaults. Edit gradient_id, stops, opacity, score_min, score_max, point_radius, and visible, then refresh the static webapp.",
+  "layers": {
+    "the-scene-contains-brick-facade": {
+      "data_key": "text-the-scene-contains-brick-facade",
+      "prompt": "the scene contains brick facade",
+      "gradient_id": "magma",
+      "gradient_name": "Magma",
+      "stops": [
+        {
+          "value": 0,
+          "color": "#000004"
+        },
+        {
+          "value": 0.2,
+          "color": "#3b0f70"
+        },
+        {
+          "value": 0.4,
+          "color": "#8c2981"
+        },
+        {
+          "value": 0.6,
+          "color": "#de4968"
+        },
+        {
+          "value": 0.8,
+          "color": "#fe9f6d"
+        },
+        {
+          "value": 1,
+          "color": "#fcfdbf"
+        }
+      ],
+      "opacity": 0.75,
+      "score_min": -1,
+      "score_max": 3,
+      "point_radius": 3,
+      "absolute_radius": false,
+      "visible": true
+    },
+    "the-scene-contains-victorian-house": {
+      "data_key": "text-the-scene-contains-victorian-house",
+      "prompt": "the scene contains victorian house",
+      "gradient_id": "magma",
+      "gradient_name": "Magma",
+      "stops": [
+        {
+          "value": 0,
+          "color": "#000004"
+        },
+        {
+          "value": 0.2,
+          "color": "#3b0f70"
+        },
+        {
+          "value": 0.4,
+          "color": "#8c2981"
+        },
+        {
+          "value": 0.6,
+          "color": "#de4968"
+        },
+        {
+          "value": 0.8,
+          "color": "#fe9f6d"
+        },
+        {
+          "value": 1,
+          "color": "#fcfdbf"
+        }
+      ],
+      "opacity": 0.75,
+      "score_min": -1,
+      "score_max": 3,
+      "point_radius": 3,
+      "absolute_radius": false,
+      "visible": false
+    },
+    "the-scene-contains-shopfront": {
+      "data_key": "text-the-scene-contains-shopfront",
+      "prompt": "the scene contains shopfront",
+      "gradient_id": "magma",
+      "gradient_name": "Magma",
+      "stops": [
+        {
+          "value": 0,
+          "color": "#000004"
+        },
+        {
+          "value": 0.2,
+          "color": "#3b0f70"
+        },
+        {
+          "value": 0.4,
+          "color": "#8c2981"
+        },
+        {
+          "value": 0.6,
+          "color": "#de4968"
+        },
+        {
+          "value": 0.8,
+          "color": "#fe9f6d"
+        },
+        {
+          "value": 1,
+          "color": "#fcfdbf"
+        }
+      ],
+      "opacity": 0.75,
+      "score_min": -1,
+      "score_max": 3,
+      "point_radius": 3,
+      "absolute_radius": false,
+      "visible": false
+    },
+    "the-scene-contains-abundant-vegetation": {
+      "data_key": "text-the-scene-contains-abundant-vegetation",
+      "prompt": "the scene contains abundant vegetation",
+      "gradient_id": "vegetation",
+      "gradient_name": "Vegetation",
+      "stops": [
+        {
+          "value": 0,
+          "color": "#2c1b3f"
+        },
+        {
+          "value": 0.25,
+          "color": "#335c67"
+        },
+        {
+          "value": 0.5,
+          "color": "#6a994e"
+        },
+        {
+          "value": 0.75,
+          "color": "#a7c957"
+        },
+        {
+          "value": 1,
+          "color": "#f2e8cf"
+        }
+      ],
+      "opacity": 0.8,
+      "score_min": -2.5,
+      "score_max": 1.5,
+      "point_radius": 3,
+      "absolute_radius": false,
+      "visible": false
+    },
+    "the-scene-contains-social-interaction": {
+      "data_key": "text-the-scene-contains-social-interaction",
+      "prompt": "the scene contains social interaction",
+      "gradient_id": "turbo",
+      "gradient_name": "Turbo",
+      "stops": [
+        {
+          "value": 0,
+          "color": "#30123b"
+        },
+        {
+          "value": 0.125,
+          "color": "#4663d7"
+        },
+        {
+          "value": 0.25,
+          "color": "#37a9e6"
+        },
+        {
+          "value": 0.375,
+          "color": "#1ae4b6"
+        },
+        {
+          "value": 0.5,
+          "color": "#71fe5f"
+        },
+        {
+          "value": 0.625,
+          "color": "#c8ef34"
+        },
+        {
+          "value": 0.75,
+          "color": "#faba39"
+        },
+        {
+          "value": 0.875,
+          "color": "#ef5a11"
+        },
+        {
+          "value": 1,
+          "color": "#a71401"
+        }
+      ],
+      "opacity": 0.75,
+      "score_min": -1,
+      "score_max": 3,
+      "point_radius": 3,
+      "absolute_radius": false,
+      "visible": false
+    },
+    "the-scene-contains-many-people-gathering": {
+      "data_key": "text-the-scene-contains-many-people-gathering",
+      "prompt": "the scene contains many people gathering",
+      "gradient_id": "turbo",
+      "gradient_name": "Turbo",
+      "stops": [
+        {
+          "value": 0,
+          "color": "#30123b"
+        },
+        {
+          "value": 0.125,
+          "color": "#4663d7"
+        },
+        {
+          "value": 0.25,
+          "color": "#37a9e6"
+        },
+        {
+          "value": 0.375,
+          "color": "#1ae4b6"
+        },
+        {
+          "value": 0.5,
+          "color": "#71fe5f"
+        },
+        {
+          "value": 0.625,
+          "color": "#c8ef34"
+        },
+        {
+          "value": 0.75,
+          "color": "#faba39"
+        },
+        {
+          "value": 0.875,
+          "color": "#ef5a11"
+        },
+        {
+          "value": 1,
+          "color": "#a71401"
+        }
+      ],
+      "opacity": 0.75,
+      "score_min": -1,
+      "score_max": 3,
+      "point_radius": 3,
+      "absolute_radius": false,
+      "visible": false
+    },
+    "the-scene-contains-people-moving-through-the-space": {
+      "data_key": "text-the-scene-contains-people-moving-through-the-space",
+      "prompt": "the scene contains people moving through the space",
+      "gradient_id": "turbo",
+      "gradient_name": "Turbo",
+      "stops": [
+        {
+          "value": 0,
+          "color": "#30123b"
+        },
+        {
+          "value": 0.125,
+          "color": "#4663d7"
+        },
+        {
+          "value": 0.25,
+          "color": "#37a9e6"
+        },
+        {
+          "value": 0.375,
+          "color": "#1ae4b6"
+        },
+        {
+          "value": 0.5,
+          "color": "#71fe5f"
+        },
+        {
+          "value": 0.625,
+          "color": "#c8ef34"
+        },
+        {
+          "value": 0.75,
+          "color": "#faba39"
+        },
+        {
+          "value": 0.875,
+          "color": "#ef5a11"
+        },
+        {
+          "value": 1,
+          "color": "#a71401"
+        }
+      ],
+      "opacity": 0.75,
+      "score_min": -1,
+      "score_max": 3,
+      "point_radius": 3,
+      "absolute_radius": false,
+      "visible": false
+    },
+    "the-scene-contains-a-punk-urban-character": {
+      "data_key": "text-the-scene-contains-a-punk-urban-character",
+      "prompt": "the scene contains a punk urban character",
+      "gradient_id": "magma",
+      "gradient_name": "Magma",
+      "stops": [
+        {
+          "value": 0,
+          "color": "#000004"
+        },
+        {
+          "value": 0.2,
+          "color": "#3b0f70"
+        },
+        {
+          "value": 0.4,
+          "color": "#8c2981"
+        },
+        {
+          "value": 0.6,
+          "color": "#de4968"
+        },
+        {
+          "value": 0.8,
+          "color": "#fe9f6d"
+        },
+        {
+          "value": 1,
+          "color": "#fcfdbf"
+        }
+      ],
+      "opacity": 0.75,
+      "score_min": -1,
+      "score_max": 3,
+      "point_radius": 3,
+      "absolute_radius": false,
+      "visible": false
+    },
+    "the-scene-contains-a-wealthy-urban-character": {
+      "data_key": "text-the-scene-contains-a-wealthy-urban-character",
+      "prompt": "the scene contains a wealthy urban character",
+      "gradient_id": "violet_gold",
+      "gradient_name": "Violet gold",
+      "stops": [
+        {
+          "value": 0,
+          "color": "#150b2e"
+        },
+        {
+          "value": 0.25,
+          "color": "#3d1b78"
+        },
+        {
+          "value": 0.5,
+          "color": "#8d4da8"
+        },
+        {
+          "value": 0.75,
+          "color": "#d5a84d"
+        },
+        {
+          "value": 1,
+          "color": "#fff2a8"
+        }
+      ],
+      "opacity": 0.78,
+      "score_min": -1,
+      "score_max": 3,
+      "point_radius": 3,
+      "absolute_radius": false,
+      "visible": false
+    },
+    "the-scene-contains-a-globalised-urban-character": {
+      "data_key": "text-the-scene-contains-a-globalised-urban-character",
+      "prompt": "the scene contains a globalised urban character",
+      "gradient_id": "magma",
+      "gradient_name": "Magma",
+      "stops": [
+        {
+          "value": 0,
+          "color": "#000004"
+        },
+        {
+          "value": 0.2,
+          "color": "#3b0f70"
+        },
+        {
+          "value": 0.4,
+          "color": "#8c2981"
+        },
+        {
+          "value": 0.6,
+          "color": "#de4968"
+        },
+        {
+          "value": 0.8,
+          "color": "#fe9f6d"
+        },
+        {
+          "value": 1,
+          "color": "#fcfdbf"
+        }
+      ],
+      "opacity": 0.75,
+      "score_min": -1,
+      "score_max": 3,
+      "point_radius": 3,
+      "absolute_radius": false,
+      "visible": false
+    },
+    "the-scene-contains-brick-facade-2": {
+      "data_key": "text-the-scene-contains-brick-facade",
+      "prompt": "the scene contains brick facade",
+      "gradient_id": "magma",
+      "gradient_name": "Magma",
+      "stops": [
+        {
+          "value": 0,
+          "color": "#000004"
+        },
+        {
+          "value": 0.2,
+          "color": "#3b0f70"
+        },
+        {
+          "value": 0.4,
+          "color": "#8c2981"
+        },
+        {
+          "value": 0.6,
+          "color": "#de4968"
+        },
+        {
+          "value": 0.8,
+          "color": "#fe9f6d"
+        },
+        {
+          "value": 1,
+          "color": "#fcfdbf"
+        }
+      ],
+      "opacity": 0.75,
+      "score_min": -1,
+      "score_max": 3,
+      "point_radius": 3,
+      "absolute_radius": false,
+      "visible": false
+    },
+    "the-scene-contains-reflective-glass-curtain-wall-facade": {
+      "data_key": "text-the-scene-contains-reflective-glass-curtain-wall-facade",
+      "prompt": "the scene contains reflective glass curtain wall facade",
+      "gradient_id": "spectral",
+      "gradient_name": "Spectral",
+      "stops": [
+        {
+          "value": 0,
+          "color": "#9e0142"
+        },
+        {
+          "value": 0.125,
+          "color": "#d53e4f"
+        },
+        {
+          "value": 0.25,
+          "color": "#f46d43"
+        },
+        {
+          "value": 0.375,
+          "color": "#fdae61"
+        },
+        {
+          "value": 0.5,
+          "color": "#ffffbf"
+        },
+        {
+          "value": 0.625,
+          "color": "#abdda4"
+        },
+        {
+          "value": 0.75,
+          "color": "#66c2a5"
+        },
+        {
+          "value": 0.875,
+          "color": "#3288bd"
+        },
+        {
+          "value": 1,
+          "color": "#5e4fa2"
+        }
+      ],
+      "opacity": 0.75,
+      "score_min": -1,
+      "score_max": 3,
+      "point_radius": 3,
+      "absolute_radius": false,
+      "visible": false
+    },
+    "reference-london-126048": {
+      "data_key": "reference-london-126048",
+      "prompt": "Reference pano 126048 (London)",
+      "gradient_id": "turbo",
+      "gradient_name": "Turbo",
+      "stops": [
+        {
+          "value": 0,
+          "color": "#30123b"
+        },
+        {
+          "value": 0.125,
+          "color": "#4663d7"
+        },
+        {
+          "value": 0.25,
+          "color": "#37a9e6"
+        },
+        {
+          "value": 0.375,
+          "color": "#1ae4b6"
+        },
+        {
+          "value": 0.5,
+          "color": "#71fe5f"
+        },
+        {
+          "value": 0.625,
+          "color": "#c8ef34"
+        },
+        {
+          "value": 0.75,
+          "color": "#faba39"
+        },
+        {
+          "value": 0.875,
+          "color": "#ef5a11"
+        },
+        {
+          "value": 1,
+          "color": "#a71401"
+        }
+      ],
+      "opacity": 0.75,
+      "score_min": 2,
+      "score_max": 6,
+      "point_radius": 3,
+      "absolute_radius": false,
+      "visible": false
+    },
+    "reference-shanghai-103110": {
+      "data_key": "reference-shanghai-103110",
+      "prompt": "Reference pano 103110 (Shanghai)",
+      "gradient_id": "turbo",
+      "gradient_name": "Turbo",
+      "stops": [
+        {
+          "value": 0,
+          "color": "#30123b"
+        },
+        {
+          "value": 0.125,
+          "color": "#4663d7"
+        },
+        {
+          "value": 0.25,
+          "color": "#37a9e6"
+        },
+        {
+          "value": 0.375,
+          "color": "#1ae4b6"
+        },
+        {
+          "value": 0.5,
+          "color": "#71fe5f"
+        },
+        {
+          "value": 0.625,
+          "color": "#c8ef34"
+        },
+        {
+          "value": 0.75,
+          "color": "#faba39"
+        },
+        {
+          "value": 0.875,
+          "color": "#ef5a11"
+        },
+        {
+          "value": 1,
+          "color": "#a71401"
+        }
+      ],
+      "opacity": 0.75,
+      "score_min": 2,
+      "score_max": 6,
+      "point_radius": 3,
+      "absolute_radius": false,
+      "visible": false
+    }
+  }
+}

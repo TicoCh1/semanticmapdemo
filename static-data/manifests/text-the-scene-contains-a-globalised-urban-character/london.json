@@ -1,0 +1,36 @@
+{
+  "prompt_id": "the-scene-contains-a-globalised-urban-character--6734e1a8f009",
+  "dataset_id": "london_224_8_45",
+  "dataset_group_id": "london_shanghai",
+  "prompt": "the scene contains a globalised urban character",
+  "query_type": "text",
+  "reference_pano": null,
+  "canonical_prompt": "the scene contains a globalised urban character",
+  "prompt_key_hash": "6734e1a8f0095c93d29b247811977b95fa57b09f485268d25f6500b2c7b1d988",
+  "source_type": "zxy_geojson",
+  "tile_url_template": "https://0tz236qm3w6hxv-8000.proxy.runpod.net/api/scoring/results/the-scene-contains-a-globalised-urban-character--6734e1a8f009/tiles/{z}/{x}/{y}.geojson",
+  "score_property": "score",
+  "zscore_property": "zscore",
+  "zooms": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "stats": {
+    "count": 476577,
+    "score_min": 0,
+    "score_max": 0.3259183168411255,
+    "zscore_min": -3.5938618183135986,
+    "zscore_max": 3.644171953201294
+  },
+  "model_version": "qwen3-vl-embedding-2b",
+  "scoring_version": "text-cor-t-qwen-cred-v1--group-london_shanghai-b2e801f7590f",
+  "base_scoring_version": "text-cor-t-qwen-cred-v1",
+  "tile_index_version": "xyz-z13-area-v1",
+  "density_rule": "base_zoom_area_scaled_v1",
+  "density_base_zoom": 13,
+  "density_trigger_points": 10000,
+  "density_keep_points": 5000,
+  "created_at": "2026-05-11T11:36:05Z"
+}

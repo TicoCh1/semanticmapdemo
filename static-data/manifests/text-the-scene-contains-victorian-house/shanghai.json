@@ -1,0 +1,36 @@
+{
+  "prompt_id": "the-scene-contains-victorian-house--74a27dec3e88",
+  "dataset_id": "shanghai_224_8_45_2B",
+  "dataset_group_id": "london_shanghai",
+  "prompt": "the scene contains victorian house",
+  "query_type": "text",
+  "reference_pano": null,
+  "canonical_prompt": "the scene contains victorian house",
+  "prompt_key_hash": "74a27dec3e88b247cc56f204b3cbee391c0944f9596ec13bcd7c0db0e480a580",
+  "source_type": "zxy_geojson",
+  "tile_url_template": "https://0tz236qm3w6hxv-8000.proxy.runpod.net/api/scoring/results/the-scene-contains-victorian-house--74a27dec3e88/tiles/{z}/{x}/{y}.geojson",
+  "score_property": "score",
+  "zscore_property": "zscore",
+  "zooms": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "stats": {
+    "count": 173622,
+    "score_min": 0,
+    "score_max": 0.46172067523002625,
+    "zscore_min": -3.126638889312744,
+    "zscore_max": 2.226414203643799
+  },
+  "model_version": "qwen3-vl-embedding-2b",
+  "scoring_version": "text-cor-t-qwen-cred-v1--group-london_shanghai-b2e801f7590f",
+  "base_scoring_version": "text-cor-t-qwen-cred-v1",
+  "tile_index_version": "xyz-z13-area-v1",
+  "density_rule": "base_zoom_area_scaled_v1",
+  "density_base_zoom": 13,
+  "density_trigger_points": 10000,
+  "density_keep_points": 5000,
+  "created_at": "2026-05-02T19:43:48Z"
+}

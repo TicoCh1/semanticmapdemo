@@ -1,0 +1,40 @@
+{
+  "prompt_id": "reference-pano-shanghai-224-8-45-2b-103110--d04e2c683e99",
+  "dataset_id": "london_224_8_45",
+  "dataset_group_id": "london_shanghai",
+  "prompt": "Reference pano 103110 (shanghai)",
+  "query_type": "pano_reference",
+  "reference_pano": {
+    "pano_id": "103110",
+    "dataset_id": "shanghai_224_8_45_2B",
+    "city_id": "shanghai",
+    "lon": 121.48232508383,
+    "lat": 31.2236523087605,
+    "date": "201310"
+  },
+  "canonical_prompt": null,
+  "prompt_key_hash": "d04e2c683e9922984540bb7a11fcf0dc661b81e3d05a382415896e1f0dce3c08",
+  "source_type": "zxy_geojson",
+  "tile_url_template": "https://0tz236qm3w6hxv-8000.proxy.runpod.net/api/scoring/results/reference-pano-shanghai-224-8-45-2b-103110--d04e2c683e99/tiles/{z}/{x}/{y}.geojson",
+  "score_property": "score",
+  "zscore_property": "zscore",
+  "zooms": [
+    13
+  ],
+  "stats": {
+    "count": 476577,
+    "score_min": 0.05221754312515259,
+    "score_max": 0.44407111406326294,
+    "zscore_min": -4.18235445022583,
+    "zscore_max": 3.548516273498535
+  },
+  "model_version": "qwen3-vl-embedding-2b",
+  "scoring_version": "text-cor-t-qwen-cred-v1--group-london_shanghai-b2e801f7590f--pano-reference-aligned-v1",
+  "base_scoring_version": "text-cor-t-qwen-cred-v1",
+  "tile_index_version": "xyz-z13-area-v1",
+  "density_rule": "base_zoom_area_scaled_v1",
+  "density_base_zoom": 13,
+  "density_trigger_points": 10000,
+  "density_keep_points": 5000,
+  "created_at": "2026-06-15T19:50:09Z"
+}

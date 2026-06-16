@@ -1,0 +1,43 @@
+{
+  "prompt_id": "reference-pano-london-224-8-45-126048--257410589295",
+  "dataset_id": "shanghai_224_8_45_2B",
+  "dataset_group_id": "london_shanghai",
+  "prompt": "Reference pano 126048 (london)",
+  "query_type": "pano_reference",
+  "reference_pano": {
+    "pano_id": "126048",
+    "dataset_id": "london_224_8_45",
+    "city_id": "london",
+    "lon": -0.13120830059051514,
+    "lat": 51.51899305435762,
+    "date": 202209
+  },
+  "canonical_prompt": null,
+  "prompt_key_hash": "2574105892952dd1c1abc4f17a75af4cd17a0311a103792f185d42ee5b3a4f95",
+  "source_type": "zxy_geojson",
+  "tile_url_template": "https://0tz236qm3w6hxv-8000.proxy.runpod.net/api/scoring/results/reference-pano-london-224-8-45-126048--257410589295/tiles/{z}/{x}/{y}.geojson",
+  "score_property": "score",
+  "zscore_property": "zscore",
+  "zooms": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "stats": {
+    "count": 173622,
+    "score_min": 0.013023223727941513,
+    "score_max": 0.4483647644519806,
+    "zscore_min": -4.91326904296875,
+    "zscore_max": 1.8617509603500366
+  },
+  "model_version": "qwen3-vl-embedding-2b",
+  "scoring_version": "text-cor-t-qwen-cred-v1--group-london_shanghai-b2e801f7590f--pano-reference-aligned-v1",
+  "base_scoring_version": "text-cor-t-qwen-cred-v1",
+  "tile_index_version": "xyz-z13-area-v1",
+  "density_rule": "base_zoom_area_scaled_v1",
+  "density_base_zoom": 13,
+  "density_trigger_points": 10000,
+  "density_keep_points": 5000,
+  "created_at": "2026-05-04T00:01:24Z"
+}

@@ -1,0 +1,33 @@
+{
+  "prompt_id": "the-scene-contains-many-people-gathering--7c0e200ec30b",
+  "dataset_id": "shanghai_224_8_45_2B",
+  "dataset_group_id": "london_shanghai",
+  "prompt": "the scene contains many people gathering",
+  "query_type": "text",
+  "reference_pano": null,
+  "canonical_prompt": "the scene contains many people gathering",
+  "prompt_key_hash": "7c0e200ec30b44b734b6485d43445094a90f9ef9e720a2defaeaa01e498db393",
+  "source_type": "zxy_geojson",
+  "tile_url_template": "https://0tz236qm3w6hxv-8000.proxy.runpod.net/api/scoring/results/the-scene-contains-many-people-gathering--7c0e200ec30b/tiles/{z}/{x}/{y}.geojson",
+  "score_property": "score",
+  "zscore_property": "zscore",
+  "zooms": [
+    13
+  ],
+  "stats": {
+    "count": 173622,
+    "score_min": 0,
+    "score_max": 0.41719114780426025,
+    "zscore_min": -4.289477348327637,
+    "zscore_max": 8.660127639770508
+  },
+  "model_version": "qwen3-vl-embedding-2b",
+  "scoring_version": "text-cor-t-qwen-cred-v1--group-london_shanghai-b2e801f7590f",
+  "base_scoring_version": "text-cor-t-qwen-cred-v1",
+  "tile_index_version": "xyz-z13-area-v1",
+  "density_rule": "base_zoom_area_scaled_v1",
+  "density_base_zoom": 13,
+  "density_trigger_points": 10000,
+  "density_keep_points": 5000,
+  "created_at": "2026-06-15T19:49:48Z"
+}

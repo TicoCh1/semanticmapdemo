@@ -1,0 +1,36 @@
+{
+  "prompt_id": "the-scene-contains-people-moving-through-the-space--984c78e630cd",
+  "dataset_id": "shanghai_224_8_45_2B",
+  "dataset_group_id": "london_shanghai",
+  "prompt": "the scene contains people moving through the space",
+  "query_type": "text",
+  "reference_pano": null,
+  "canonical_prompt": "the scene contains people moving through the space",
+  "prompt_key_hash": "984c78e630cdd57bc4a12c8a029086e02f1f78437ad63f13e5ceb27f41ea5745",
+  "source_type": "zxy_geojson",
+  "tile_url_template": "https://0tz236qm3w6hxv-8000.proxy.runpod.net/api/scoring/results/the-scene-contains-people-moving-through-the-space--984c78e630cd/tiles/{z}/{x}/{y}.geojson",
+  "score_property": "score",
+  "zscore_property": "zscore",
+  "zooms": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "stats": {
+    "count": 173622,
+    "score_min": 0,
+    "score_max": 0.3486088514328003,
+    "zscore_min": -3.01652193069458,
+    "zscore_max": 4.230707168579102
+  },
+  "model_version": "qwen3-vl-embedding-2b",
+  "scoring_version": "text-cor-t-qwen-cred-v1--group-london_shanghai-b2e801f7590f",
+  "base_scoring_version": "text-cor-t-qwen-cred-v1",
+  "tile_index_version": "xyz-z13-area-v1",
+  "density_rule": "base_zoom_area_scaled_v1",
+  "density_base_zoom": 13,
+  "density_trigger_points": 10000,
+  "density_keep_points": 5000,
+  "created_at": "2026-05-11T11:02:01Z"
+}
